@@ -28,4 +28,4 @@ app.use("/",staticRoute);
 // app.use("/user",checkAuth,userRoute)
 app.use("/user",userRoute)
 
-app.listen(PORT,()=>{console.log(`server started att port ${PORT}`)});
+app.listen(PORT,()=>{console.log(`server started a port ${PORT}`)});
